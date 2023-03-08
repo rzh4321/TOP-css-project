@@ -2,6 +2,77 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
-    padding: 5px 30px;
+    margin: 0px;
 }
 
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 40px;
+    padding: 10px 180px;
+    padding-bottom: 60px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#title-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#main-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+button {
+    width: 80px;
+    color: white;
+    background-color: #3882f6;
+}
+
+img {
+    border: 5px solid red;
+    height: 50%;
+    width: 50%;
+}
