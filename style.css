@@ -37,6 +37,39 @@ body {
     color: #e5e7eb;
 }
 
+.white-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#random-info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 600;
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+    margin: 40px;
+}
+
+.box-column {
+    display: flex;
+    flex-direction: column;
+    width: 108px;
+    text-align: center;
+    gap: 5px;
+}
+
+.box {
+    border: 4px blue solid;
+    height: 100px;
+    width: 100px;
+}
+
 ul {
     list-style-type: none;
     margin: 0px;
