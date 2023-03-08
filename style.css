@@ -70,6 +70,32 @@ body {
     width: 100px;
 }
 
+.grey-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote-column {
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#quoter {
+    display: flex;
+    font-weight: 600;
+    justify-content: flex-end;
+}
+
 ul {
     list-style-type: none;
     margin: 0px;
