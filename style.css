@@ -96,6 +96,35 @@ body {
     justify-content: flex-end;
 }
 
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#call-to-action {
+    font-weight: 700;
+}
+
+#action-subtext {
+    font-size: 14px;
+}
+
+.blue-box {
+    display: flex;
+    padding: 30px 60px;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 800px;
+}
+
+.top-footer {
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0px;
@@ -128,6 +157,10 @@ button {
     width: 80px;
     color: white;
     background-color: #3882f6;
+}
+
+#button-footer {
+    border: 3px white solid;
 }
 
 img {
